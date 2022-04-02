@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #FFFFFF;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 31px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 42px;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.background {
+    background-image: url(../imgs/Background.jpg);
+    background-size: cover;
+    max-width: 1500px;
+    min-height: 865px;
+    left: 50px;
+    top: 100px;
+    border-radius: 30px;
+    display: flex;
+
+  }
+
+.background-tittle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 78px;
+    padding-top: 162px;
+}
+
+.main-text {
+    font-style: normal;
+    font-weight: 700 bold;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    padding-top: 150px;
+    
+}
+
+.buy-now{
+    min-width: 180px;
+    max-height: 65px;
+    padding: 18px 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.learn-more {
+    min-width: 180px;
+    max-height: 65px;
+    padding: 18px 50px;
+    font-size: 18px;
+    line-height: 28.8px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bee {
+    max-width: 686.83px;
+    max-height: 650px;
+    padding-top: 124px;
+    padding-right: 10.17px;
+}
+
+.shops {
+    width: 427px;
+    height: 72px;
+    margin-top: 130px;
+    margin-left: 227px;
+}
+
+.shop-tittle {
+    font-weight: 700, Bold;
+    font-size: 45px;
+    line-height: 72px;
+    color:black
+}
+
+.shop-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 227px;
+    margin-right: 177px;
+    margin-top: 52.77px;
+    margin-bottom: 132.89px;
+    list-style-type: none;
+}
+
+.honey-bottle {
+    display: flex;
+    align-items: center;
+    margin-left: 64px;
+    margin-right: 60px;
+    width: 1475px;
+    height: 784.26px;
+}
+
+.flower {
+    width: 866.89px;
+    height: 784.26px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.description-tittle {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.description-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    opacity: 70%;
+    margin-top: 30px;
+}
+
+.but-learn {
+    height: 59px;
+    width: 184px;
+    border-radius: 0px;
+    padding: 15px, 40px, 15px, 40px;
+    background-color: #E58311;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.bee_with_h {
+    width: 884.49px;
+    height: 784.26px;
+}
+
+.our-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-left: 177px;
+    margin-right: 177px;
+}
+
+.product-header {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.products-all {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #E58211;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 177px;
+    margin-right: 177px;
+}
+
+.product {
+    background: url(../imgs/product_background.jpg);
+    width: 558px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-profile {
+    padding-left: 30px;
+}
+
+.product-tittle {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 45px;
+    margin-bottom: 20px; 
+}
+
+.product-description {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.button-buy {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-bottom: 39px;
+    background: transparent;
+    border: 1.5px solid #E68311;
+    color: #E68311;
+}
+
+.bass-honey {
+    padding-right: 40px;
+}
+
+.footer-section {
+    background: url(../imgs/footer_background.jpg);
+    background-size: cover;
+    min-height: 137px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    padding-left: 229px;
+}
+
+.footer-description {
+max-height: 47px;    
+max-width: 269px;    
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+color: black;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+}
+
+.store-links {
+    display: flex;
+
+}
+
+.store-links a {
+    margin-right: 20px;
+}
+
+
+    
+
+
+
+
+
+
+
+
